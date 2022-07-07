@@ -95,9 +95,8 @@
     background-color: #f9FAf8  ;
     color: #1f2937;
     flex-wrap: wrap;
-    align-content: center;
     align-items: center;
-    justify-content: center;
+    
     margin-top: 30px;
 }
 
@@ -106,38 +105,36 @@
     align-self: center;
     justify-self: center;
     margin-bottom: 30px ;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .box{
 
-
+    flex-direction: column;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 50px;
     text-align: center;
 
 
 }
 .box1, .box2, .box3, .box4{
     display: flex;
+    flex-direction: column;
     padding: 80px;
     border-radius: 15px;
     border: 5px solid #3882f6;
-    max-width: 200px;
-    
-    /* margin-left: 20px ; */
 }
 
-.boxsub{
+
+.info{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    border-radius: 15px;
-    max-width: 830px;
-    text-align: center;
-
-
+    gap: 60px;
 }
+
+.subtext{
+    display: flex;
+    max-width: 185px;
+}
+
