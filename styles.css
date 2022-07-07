@@ -206,6 +206,13 @@
    font-weight: bold;
 }
 
-.acttion{
-    font-size: 18px;
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1f2937;
+    color: #f9FAf8;
+    margin-bottom: 0;
+    padding: 40px;
+    font-size: 18px
 }
